@@ -1,0 +1,62 @@
+# Logs
+*.log
+*.tmp
+logs/
+*.etl
+*.evtx
+
+# Credentials & sensitive configs (never upload these!)
+*.env
+*credentials*
+*secret*
+*.pem
+*.key
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node modules (if you ever use JS tools)
+node_modules/
+
+# Virtual environments
+venv/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Archives and binaries
+*.zip
+*.tar
+*.gz
+*.7z
+*.exe
+*.dll
+
+# Terraform states (if you end up doing cloud IaC labs)
+*.tfstate
+*.tfstate.backup
+
+# ELK/Beats temporary files
+data/
+queue/
+logs/
+
+# Cloud logs (do NOT commit live data)
+CloudTrail/
+FlowLogs/
+GuardDuty/
+
+# Windows artifacts
+*.ps1.tmp
+*.bak
+
+# Screenshots backup
+*.png~
+*.jpg~
